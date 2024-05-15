@@ -1,7 +1,48 @@
-/* css */
+/* Header.module.css */
 
-headers {
-  height: 100px;
-  background-color: beige;
-  padding: 8px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+  background-color: white; /* Set background color to white */
 }
+
+.logo {
+  width: 100px; /* Adjust the width of the logo */
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.reddit {
+  color: #007bff;
+}
+
+.search {
+  background-color: lightgray; /* Set background color of search div to light gray */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background-color: lightgray; /* Set background color of input to light gray */
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search button {
+  border: none;
+  outline: none;
+  background-color: #007bff; /* Example button background color */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add additional styles as needed */
+
