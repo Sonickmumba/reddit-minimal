@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import styles from './Header.module.css';
 
-const Header = () => {
-  return (
-    <div className={styles.header}>My sonck</div>
-  )
-}
+const Header = () => (
+  <div className={styles.headers}>
+    <p>Mumba</p>
+  </div>
+);
 
 export default Header;

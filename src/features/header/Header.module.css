@@ -1,6 +1,7 @@
 /* css */
 
-header {
+headers {
   height: 100px;
   background-color: beige;
+  padding: 8px;
 }

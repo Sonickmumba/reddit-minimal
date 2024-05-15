@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const HeaderInput = () => {
-  return (
-    <div>HeaderInput</div>
-  )
-}
+const HeaderInput = () => (
+  <div>HeaderInput</div>
+);
 
-export default HeaderInput
+export default HeaderInput;
