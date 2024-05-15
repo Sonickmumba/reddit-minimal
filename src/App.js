@@ -6,11 +6,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header />
-      <header className="App-header">
-        sonick
-      </header>
+    <div className="App-header">
+      <Header />
     </div>
   );
 }
