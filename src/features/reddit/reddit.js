@@ -1,9 +1,9 @@
 import React from 'react'
 
-const reddit = () => {
+const Reddit = () => {
   return (
     <div>reddit</div>
   )
 }
 
-export default reddit
+export default Reddit
