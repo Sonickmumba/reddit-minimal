@@ -4,6 +4,9 @@
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 5px;
+  width: 20%;
+  box-sizing: border-box;
+  max-height: 90vh;
 }
 
 .title {

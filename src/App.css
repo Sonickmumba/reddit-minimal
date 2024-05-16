@@ -3,4 +3,6 @@
 .reddit-main {
   display: flex;
   gap: 20px;
+  justify-content: space-between;
+  margin: 40px;
 }
