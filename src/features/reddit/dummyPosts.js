@@ -1,5 +1,6 @@
 const dummyPosts = [
   {
+    id: 1,
     title: 'Lorem ipsum dolor sit amet',
     imageSrc: 'https://via.placeholder.com/150',
     postedBy: 'JohnDoe',
@@ -10,6 +11,7 @@ const dummyPosts = [
     subreddit: 'r/example',
   },
   {
+    id: 2,
     title: 'Consectetur adipiscing elit',
     imageSrc: 'https://via.placeholder.com/150',
     postedBy: 'JaneDoe',
@@ -20,6 +22,7 @@ const dummyPosts = [
     subreddit: 'r/example',
   },
   {
+    id: 3,
     title: 'Sed do eiusmod tempor incididunt',
     imageSrc: 'https://via.placeholder.com/150',
     postedBy: 'Alice',
@@ -30,6 +33,7 @@ const dummyPosts = [
     subreddit: 'r/example',
   },
   {
+    id: 4,
     title: 'Ut labore et dolore magna aliqua',
     imageSrc: 'https://via.placeholder.com/150',
     postedBy: 'Bob',
@@ -40,6 +44,7 @@ const dummyPosts = [
     subreddit: 'r/example',
   },
   {
+    id: 5,
     title: 'Quis nostrud exercitation ullamco',
     imageSrc: 'https://via.placeholder.com/150',
     postedBy: 'Eve',
@@ -50,6 +55,7 @@ const dummyPosts = [
     subreddit: 'r/example',
   },
   {
+    id: 6,
     title: 'Duis aute irure dolor in reprehenderit',
     imageSrc: 'https://via.placeholder.com/150',
     postedBy: 'Charlie',
