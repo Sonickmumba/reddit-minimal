@@ -16,12 +16,13 @@ const Reddit = () => (
         <div className={styles.footer}>
           <div className={styles.userinfo}>
             <img
-              src="/path/to/small-pic.png"
+              src={dummy.userPic}
               alt="User"
               className={styles.userPic}
             />
             <p className={styles.postedBy}>
               Posted by
+              {' '}
               {dummy.postedBy}
               {' '}
               {dummy.daysPosted}
