@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Reddit.module.css';
+import message from './message.svg';
 /* eslint-disable react/prop-types */
 import dummyPosts from './dummyPosts';
 
@@ -29,10 +30,8 @@ const Reddit = () => (
             </p>
           </div>
           <div className={styles.messages}>
-            <i className="fa fa-envelope" />
-            {' '}
-            dummy.
-            {dummy.numMessages}
+            <img src={message} alt="Message icon" className={styles.messageIcon} />
+            <span>{dummy.numMessages}</span>
           </div>
         </div>
       </div>
