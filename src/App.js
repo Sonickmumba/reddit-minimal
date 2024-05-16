@@ -1,9 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
 // import { Counter } from './features/counter/Counter';
+import Reddit from './features/reddit/Reddit';
 import Header from './features/header/Header';
 import Subreddit from './features/subreddit/Subreddit';
-import Reddit from './features/reddit/Reddit';
 import './App.css';
 
 function App() {
