@@ -4,7 +4,7 @@ import styles from './Reddit.module.css';
 import dummyPosts from './dummyPosts';
 
 const Reddit = () => (
-  <>
+  <div className={styles.redditContainer}>
     {dummyPosts.map((dummy) => (
       <div className={styles.reddit} key={dummy.id}>
         {' '}
@@ -63,7 +63,7 @@ const Reddit = () => (
       </div>
     </div>
   </div> */}
-  </>
+  </div>
 );
 
 export default Reddit;

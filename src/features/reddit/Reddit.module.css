@@ -1,4 +1,10 @@
 /* css */
+.redditContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .reddit {
   background-color: #fff;
   border: 1px solid #ccc;
