@@ -1,1 +1,54 @@
 /* css */
+.reddit {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.line {
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.userPic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.postedBy {
+  color: #666;
+}
+
+.messages {
+  display: flex;
+  align-items: center;
+}
+
+.fa-envelope {
+  margin-right: 5px;
+}
