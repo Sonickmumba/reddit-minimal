@@ -39,6 +39,7 @@
 .user-info {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .userPic {
@@ -50,6 +51,11 @@
 
 .postedBy {
   color: #666;
+}
+
+.namePostby {
+  color:dodgerblue;
+  margin-right: 40px;
 }
 
 .messages {

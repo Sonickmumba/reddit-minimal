@@ -10,20 +10,18 @@ const Reddit = () => (
         {' '}
         <h2 className={styles.title}>{dummy.title}</h2>
         {dummy.imageSrc && (
-          <img src={dummy.imageSrc} alt="Reddit post" className={styles.image} />
+          <img
+            src={dummy.imageSrc}
+            alt="Reddit post"
+            className={styles.image}
+          />
         )}
         <div className={styles.line} />
         <div className={styles.footer}>
           <div className={styles.userinfo}>
-            <img
-              src={dummy.userPic}
-              alt="User"
-              className={styles.userPic}
-            />
+            <img src={dummy.userPic} alt="User" className={styles.userPic} />
             <p className={styles.postedBy}>
-              Posted by
-              {' '}
-              {dummy.postedBy}
+              <span className={styles.namePostby}>{dummy.postedBy}</span>
               {' '}
               {dummy.daysPosted}
               {' '}
