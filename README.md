@@ -30,7 +30,7 @@
 **Reddit Minimal** is a web application where friends can split bill after a meal. The app shows how much one owes the other. Also more friends can be added to the eat and split bill app.
 It is built using React, Javascript, HTML, CSS3
 
-![Travel list2 jpeg](https://res.cloudinary.com/djlpfihyu/image/upload/
+![Travel list2 jpeg](https://res.cloudinary.com/djlpfihyu/imag
 
 
 ## 🛠 Built With <a name="built-with"></a>
