@@ -1,0 +1,80 @@
+/* css */
+.redditContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 80%;
+}
+
+.reddit {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.line {
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userPic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.postedBy {
+  color: #666;
+}
+
+.namePostby {
+  color: dodgerblue;
+  margin-right: 40px;
+}
+
+.messages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.messages span {
+  color: #C40C0C;
+}
+
+.messageIcon {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.fa-envelope {
+  margin-right: 5px;
+}
