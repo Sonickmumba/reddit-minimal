@@ -27,6 +27,7 @@ const Subreddit = () => (
         <a href="/home">Football</a>
       </li>
       <li className={styles.subredditItem}>
+        <span className="material-symbols-outlined">currency_pound</span>
         <a href="/home">Politics</a>
       </li>
       <li className={styles.subredditItem}>
