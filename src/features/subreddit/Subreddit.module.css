@@ -27,6 +27,7 @@
 }
 
 .subredditItem a {
+  width: 40%;
   color: #333;
   text-decoration: none;
   display: block;

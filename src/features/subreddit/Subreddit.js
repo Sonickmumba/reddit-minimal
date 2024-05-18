@@ -11,21 +11,15 @@ const Subreddit = () => (
         <a href="/home">Home</a>
       </li>
       <li className={styles.subredditItem}>
-        <span className="material-symbols-outlined">
-          sentiment_satisfied
-        </span>
+        <span className="material-symbols-outlined">sentiment_satisfied</span>
         <a href="/home">Funny</a>
       </li>
       <li className={styles.subredditItem}>
-        <span className="material-symbols-outlined">
-          hd
-        </span>
+        <span className="material-symbols-outlined">hd</span>
         <a href="/home">Movies</a>
       </li>
       <li className={styles.subredditItem}>
-        <span className="material-symbols-outlined">
-          stadia_controller
-        </span>
+        <span className="material-symbols-outlined">stadia_controller</span>
         <a href="/home">Gaming</a>
       </li>
       <li className={styles.subredditItem}>
@@ -36,6 +30,7 @@ const Subreddit = () => (
         <a href="/home">Politics</a>
       </li>
       <li className={styles.subredditItem}>
+        <span className="material-symbols-outlined">breaking_news</span>
         <a href="/home">News</a>
       </li>
     </ul>
