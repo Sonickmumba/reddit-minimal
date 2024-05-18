@@ -65,6 +65,10 @@
   cursor: pointer;
 }
 
+.messages span {
+  color: #C40C0C;
+}
+
 .messageIcon {
   cursor: pointer;
   width: 50px;
