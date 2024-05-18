@@ -15,6 +15,12 @@
   margin-bottom: 10px;
 }
 
+
+.line {
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
 .list {
   list-style: none;
   padding: 0;
