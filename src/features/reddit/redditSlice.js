@@ -1,16 +1,15 @@
-import { createSlice } from '@reduxjs/toolkit';
-
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   posts: [],
-  searchTerm: '',
+  searchTerm: "",
   error: false,
   isloading: false,
-  selectedSubreddit: 'r/pics/',
-}
+  selectedSubreddit: "r/pics/",
+};
 
 const redditSlice = createSlice({
-  name: 'redditPosts',
+  name: "redditPosts",
   initialState,
   reducers: {
     addPosts: (state, action) => {
@@ -34,14 +33,16 @@ const redditSlice = createSlice({
     // set selected subreddit
     setSelectedSubreddit: (state, action) => {
       state.selectedSubreddit = action.payload;
-      state.searchTerm = '';
+      state.searchTerm = "";
     },
     // toggle to show post comments true or false
     toggleToShowComments: (state, action) => {
-      state.posts[action.payload].showingComments = !state.posts[action.payload].showingComments;
+      state.posts[action.payload].showingComments =
+        !state.posts[action.payload].showingComments;
     },
     getComments: (state, action) => {
-      state.posts[action.payload].showingComments = !state.posts[action.payload].showingComments;
+      state.posts[action.payload].showingComments =
+        !state.posts[action.payload].showingComments;
       if (!state.posts[action.payload].showingComments) {
         return;
       }
@@ -56,6 +57,18 @@ const redditSlice = createSlice({
       state.posts[action.payload].loadingComments = false;
       state.posts[action.payload].error = true;
     },
-
   },
 });
+
+export const {
+  addPosts,
+  getPosts,
+  getPostSuccess,
+  getPostFailed,
+  setSearchTerm,
+  setSelectedSubreddit,
+  toggleToShowComments,
+  getComments,
+  getCommentsSuccess,
+  getCommentsFailed,
+} = redditSlice.actions;
