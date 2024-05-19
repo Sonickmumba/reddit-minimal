@@ -5,7 +5,6 @@ import football from './football.svg';
 const Subreddit = () => (
   <div className={styles.subredditList}>
     <h2 className={styles.title}>Subreddits</h2>
-    <div className={styles.line} />
     <ul className={styles.list}>
       <li className={styles.subredditItem}>
         <span className="material-symbols-outlined">home</span>
