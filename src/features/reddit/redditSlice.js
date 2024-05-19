@@ -1,4 +1,5 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { getSubredditPosts, getPostComments } from '../../app/api';
 
 const initialState = {
   posts: [],
@@ -72,3 +73,12 @@ export const {
   getCommentsSuccess,
   getCommentsFailed,
 } = redditSlice.actions;
+
+export default redditSlice.reducer;
+
+const fetchPosts = createAsyncThunk(
+  'getPosts',
+  async (subreddit) => {
+    const posts = await getSubredditPosts(subreddit);
+  }
+)
