@@ -13,8 +13,6 @@ const Reddit = () => {
     (state) => state.reddit.selectedSubreddit,
   );
 
-  console.log(posts);
-
   useEffect(() => {
     dispatch(fetchPosts(selectedSubreddit));
   }, [dispatch, selectedSubreddit]);
