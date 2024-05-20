@@ -7,18 +7,6 @@ const initialState = {
   isLoading: false,
 };
 
-// export const fetchSubreddits = createAsyncThunk(
-//   'subreddits/fetchSubreddits',
-//   async (_, { rejectWithValue }) => {
-//     try {
-//       const response = await getSubreddits(); // Replace with actual API call
-//       return response;
-//     } catch (error) {
-//       return rejectWithValue(error.message);
-//     }
-//   },
-// );
-
 const subRedditSlice = createSlice({
   name: 'subreddits',
   initialState,
@@ -41,14 +29,24 @@ const subRedditSlice = createSlice({
 export const {
   getSubredditsFailed,
   getSubredditsSuccess,
-  startGetSubreddits,
+  startgetSubreddits,
 } = subRedditSlice.actions;
 
 export default subRedditSlice.reducer;
 
+// export const fetchSubreddits = () => async (dispatch) => {
+//   try {
+//     dispatch(startgetSubreddits());
+//     const subreddits = await getSubreddits();
+//     dispatch(getSubredditsSuccess(subreddits));
+//   } catch (error) {
+//     dispatch(getSubredditsFailed());
+//   }
+// };
+
 export const fetchSubreddits = () => async (dispatch) => {
   try {
-    dispatch(startGetSubreddits());
+    dispatch(startgetSubreddits());
     const subreddits = await getSubreddits();
     dispatch(getSubredditsSuccess(subreddits));
   } catch (error) {

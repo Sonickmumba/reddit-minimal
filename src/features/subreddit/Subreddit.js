@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchSubreddits, selectSubreddits } from './subRedditSlice';
-import {
-  setSelectedSubreddit,
-} from '../reddit/redditSlice';
+import { setSelectedSubreddit } from '../reddit/redditSlice';
 import styles from './Subreddit.module.css';
 // import football from "./football.svg";
 

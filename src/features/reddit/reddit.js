@@ -1,22 +1,23 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { fetchPosts, selectFilteredPosts } from './redditSlice';
+import React from 'react';
+// import { useSelector, useDispatch } from 'react-redux';
+// import { fetchPosts } from './redditSlice';
+// import { fetchPosts, selectFilteredPosts } from './redditSlice';
 import styles from './Reddit.module.css';
 import message from './message.svg';
 /* eslint-disable react/prop-types */
 import dummyPosts from './dummyPosts';
 
 const Reddit = () => {
-  const dispatch = useDispatch();
-  const posts = useSelector(selectFilteredPosts);
-  const selectedSubreddit = useSelector(
-    (state) => state.reddit.selectedSubreddit,
-  );
+  // const dispatch = useDispatch();
+  // const posts = useSelector(selectFilteredPosts);
+  // const selectedSubreddit = useSelector(
+  //   (state) => state.reddit.selectedSubreddit,
+  // );
 
-  useEffect(() => {
-    dispatch(fetchPosts(selectedSubreddit));
-  }, [dispatch, selectedSubreddit]);
-
+  // useEffect(() => {
+  //   dispatch(fetchPosts(selectedSubreddit));
+  // }, [dispatch, selectedSubreddit]);
+  console.log('sonick');
   return (
     <div className={styles.redditContainer}>
       {dummyPosts.map((dummy) => (
