@@ -9,7 +9,7 @@ export const getSubredditPosts = async (subreddit) => {
 
 // Handle fetch limits
 export const rateLimitedFetch = async (url) => {
-  const REQUEST_INTERVAL = 6000; // 6000 ms = 6 seconds (10 requests per minute)
+  const REQUEST_INTERVAL = 6000;
   let lastRequestTime = 0;
 
   const now = Date.now();
