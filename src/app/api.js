@@ -27,8 +27,8 @@ export const rateLimitedFetch = async (url) => {
 // end handle fetch limits
 
 export const getSubreddits = async () => {
-  // const response = await fetch(`${API_ROOT}/subreddits.json`);
-  const json = await rateLimitedFetch('https://www.reddit.com/subreddits.json');
+  const json = await rateLimitedFetch(`${API_ROOT}/subreddits.json`);
+  // const json = await rateLimitedFetch('https://www.reddit.com/subreddits.json');
   // const json = await response.json();
 
   return json.data.children.map((subreddit) => subreddit.data);
