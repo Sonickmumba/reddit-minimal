@@ -6,8 +6,8 @@
   border-radius: 5px;
   width: 20%;
   box-sizing: border-box;
-  /* max-height: 90vh; */
-  max-height: fit-content;
+  max-height: 160vh;
+  /* max-height: fit-content; */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
