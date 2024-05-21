@@ -46,7 +46,7 @@ const Subreddit = () => {
             />
             {/* <span className="material-symbols-outlined">home</span> */}
             <a
-              href="/home"
+              href="/"
               onClick={() => dispatch(setSelectedSubreddit(subreddit.url))}
             >
               {subreddit.display_name}
