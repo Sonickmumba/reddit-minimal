@@ -7,7 +7,6 @@ import styles from './Reddit.module.css';
 import message from './message.svg';
 
 /* eslint-disable react/prop-types */
-// import dummyPosts from './dummyPosts';
 
 const Reddit = () => {
   const dispatch = useDispatch();
