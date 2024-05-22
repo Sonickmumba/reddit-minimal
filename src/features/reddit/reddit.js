@@ -18,9 +18,8 @@ const Reddit = () => {
 
   useEffect(() => {
     dispatch(fetchPosts(selectedSubreddit));
-  }, [selectedSubreddit]);
-  console.log(selectedSubreddit);
-  console.log(posts);
+  }, [selectedSubreddit, dispatch]);
+
   return (
     <div className={styles.redditContainer}>
       {posts.map((post) => (
