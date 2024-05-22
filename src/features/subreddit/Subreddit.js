@@ -13,6 +13,11 @@ const Subreddit = () => {
   const isLoading = useSelector((state) => state.subreddits.isLoading);
   const error = useSelector((state) => state.subreddits.error);
 
+  const handleSubredditClick = (url) => (e) => {
+    e.preventDefault();
+    dispatch(setSelectedSubreddit(url));
+  };
+
   useEffect(() => {
     dispatch(fetchSubreddits());
   }, [dispatch]);
@@ -47,7 +52,7 @@ const Subreddit = () => {
             {/* <span className="material-symbols-outlined">home</span> */}
             <a
               href="/"
-              onClick={() => dispatch(setSelectedSubreddit(subreddit.url))}
+              onClick={handleSubredditClick(subreddit.url)}
             >
               {subreddit.display_name}
             </a>
