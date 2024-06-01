@@ -27,7 +27,7 @@
 
 # 📖 Jammming <a name="about-project"></a>
 
-**Reddit Minimal** is a web application where friends can split bill after a me
+**Reddit Minimal** is a web application where friends can split bill after a 
 ![Travel list2 jpeg](https://res.cloudinar
 
 
