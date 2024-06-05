@@ -27,7 +27,7 @@
 
 # 📖 Jammming <a name="about-project"></a>
 
-**Reddit Minimal** is a web
+**Reddit Minimal** is a w
 ![Travel list2 jpeg](https://res.cloudinar
 
 
